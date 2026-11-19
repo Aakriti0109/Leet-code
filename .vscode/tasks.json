@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "graphics.h: build active file",
+            "type": "shell",
+            "command": "C:\\Users\\aakri\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-Ic:\\Users\\aakri\\AppData\\Roaming\\Code\\User\\globalStorage\\mythos0-labs.graphics-h-runner\\winbgim\\include",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-static",
+                "-lbgi",
+                "-lgdi32",
+                "-lcomdlg32",
+                "-luuid",
+                "-loleaut32",
+                "-lole32",
+                "-static-libgcc",
+                "-static-libstdc++"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Same compiler + graphics.h flags as the graphics.h Runner (Ctrl+Alt+R)."
+        }
+    ]
+}

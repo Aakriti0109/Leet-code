@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd \"$dir\" && C:\\Users\\aakri\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.exe -Ic:\\Users\\aakri\\AppData\\Roaming\\Code\\User\\globalStorage\\mythos0-labs.graphics-h-runner\\winbgim\\include $fileName -o $fileNameWithoutExt.exe -static -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -static-libgcc -static-libstdc++ && \"$dir$fileNameWithoutExt.exe\""
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "C_Cpp.default.compilerPath": "C:\\Users\\aakri\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\g++.exe"
+}
